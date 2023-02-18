@@ -1,0 +1,75 @@
+.lefts{
+    width: 50vw;
+    /* background-color: burlywood; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+
+.lefts img{
+    object-fit: contain;
+    width: 60%;
+    height: 60%;
+}
+
+.rights{
+    width: 50vw;
+    /* background-color: cornflowerblue; */
+    height: 100vh;
+    float: left;
+    overflow: scroll;
+}
+.sp{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.scroll-content{
+    /* text-align: center; */
+    height: 300vh;
+}
+.rights::-webkit-scrollbar {
+    display: none;
+}
+.pg1{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 3rem;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+    padding-top: 15vh;
+    /* background-color: aqua; */
+}
+.pg2{
+    height: 100vh;
+    display: flex;
+    padding-inline: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+    padding-top: 15vh;
+    /* background-color: blue; */
+}
+.pg3{
+    height: 100vh;
+    padding-inline: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+    padding-top: 15vh;
+    /* background-color: blanchedalmond; */
+}
