@@ -131,8 +131,50 @@ font-weight: 600;
 font-size: 200%;
 line-height: 50px;
 /* identical to box height */
-
 letter-spacing: 0.1em;
-
 color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+
+.form-page > *{
+  all:unset;
+}
+
+#saytext{
+  text-align: center;
+  margin-inline: auto;
+  font-size: 1em;
+}
+
+.form{
+  width: auto;
+  padding-inline: 2rem;
+  margin-inline: auto;
+}
+
+#send{
+  margin-top: 2rem;
+  padding-inline: 1rem;
+  border-radius: 1rem;
+}
+
+.formtext{
+  margin-top: 5rem;
+  width: 100%;
+  margin-inline: auto;
+}
+.formtext > #cname{
+  text-align: center;
+}
+.formtext > #cnametext{
+  padding-inline: 3rem;
+  text-align: justify;
+}
+#cnametext > span{
+  text-align: center;
+}
+#cname {
+  padding-block:2rem ;
+}
 }

@@ -19,13 +19,17 @@ export default function forms() {
         <div class="formtext">
             <div id="cname">CYBERNAUT</div>
             <div id="cnametext">Lorem ipsum dolor sit amet,consectetur adipiscing elit.<br/> In dui,
-                donec tristique egestas lacus,viverra odio.<br/><br/>+91 63820 55035 / +91 8778645672
+                donec tristique egestas lacus,viverra odio.<br /> <br /><span>
+                     +91 63820-55035 / +91 87786-45672
                 <br/>admin@cybernautofficial.com
+                    </span>
             </div>
             <div id="cname">CYBERNAUT JUNIOR SPACE</div>
             <div id="cnametext">Lorem ipsum dolor sit amet,consectetur adipiscing elit.<br/> In dui,
-                donec tristique egestas lacus,viverra odio.<br/><br/>+91 63820 55035 / +91 8778645672
+                donec tristique egestas lacus,viverra odio.<br/><br/> <span>
+                     +91 63820-55035 / +91 87786-45672
                 <br/>admin@cybernautofficial.com
+                    </span>
             </div>
             <div class="icons">
                 <a href=""><img src="./Assets/images/ins.png" alt="" id="iconpos"/></a>

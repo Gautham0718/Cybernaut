@@ -5,7 +5,7 @@ export default function founder() {
   return (
     <div className="founder">
         <div className="lll">
-            <img src={founders} alt="" width={400} />
+            <img src={founders} alt="" width={400} className='founder-img'/>
             <h1>Jayasurya.G</h1>
             <p>Chief Executive Officer</p>
         </div>

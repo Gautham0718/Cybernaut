@@ -72,5 +72,8 @@
     background-origin: none;
     background-clip: none;
 }
-
+.ch > h4 {
+    text-align: center;
+    font-size: 1.3em;
+} 
 }

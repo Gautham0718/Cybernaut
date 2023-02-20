@@ -33,3 +33,28 @@
 .rrr p{
     font-size: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    .founder{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .lll{
+        all:unset;
+        margin-top: 3rem;
+    }
+    .lll > h1{
+        padding-block: .3rem;
+    }
+    .rrr{
+        all:unset;
+        padding-inline: 2rem;
+    }
+    .rrr > h1{
+        padding-bottom: 1rem;
+    }
+    .rrr > p{
+        text-align: justify;
+    }
+}

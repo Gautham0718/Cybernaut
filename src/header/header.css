@@ -26,3 +26,11 @@ li:hover{
     text-align: left;
     color: rgb(0, 0, 0);
 }
+.z-10{
+    z-index: 10;
+}
+@media screen and (max-width: 768px) {
+    .item{
+        background-color: #FFF;
+    }
+}

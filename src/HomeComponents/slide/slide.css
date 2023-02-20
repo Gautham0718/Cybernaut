@@ -61,3 +61,31 @@
     border: 1px solid transparent ;
     border-radius: 10px;
   }
+  @media screen and (max-width: 768px) {
+    .circle-ccxx{
+    display: none;
+    }
+    .content-parent{
+      width: 100%;
+      height: max-content;
+    }
+    .content-parent >*{
+      width : 100%;
+    }
+    .slider{
+      height:max-content;
+      background-color: #FAFAFA;
+    }
+    .contents > p{
+      margin-top: 2rem;
+      padding-inline: 3rem;
+    }
+    .contents{
+      height:30vh;
+      display: block;
+    }
+    .parent{
+      padding-block: 5rem;
+      height: auto;
+    }
+      }

@@ -9,14 +9,14 @@ export default function Header(){
             <span className="navbar-toggler-icon"></span>
         </button>
         <div id="head" className="collapse navbar-collapse">
-            <ul className="navbar-nav ms-auto">
-                <li className="nav-item">
-                    <Link to={"/"} className="nav-link">Home</Link>
+            <ul className="navbar-nav ms-auto item">
+                <li className="nav-item ">
+                    <Link to={"/"} className="nav-link"><span class="z-10">Home</span></Link>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item ">
                     <Link to="/Services" className="nav-link">Service</Link>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item ">
                     <Link to="/Aboutus" className="nav-link">About Us</Link>
                 </li>
                 

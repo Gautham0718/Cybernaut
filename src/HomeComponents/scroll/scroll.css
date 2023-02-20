@@ -73,3 +73,37 @@
     padding-top: 15vh;
     /* background-color: blanchedalmond; */
 }
+
+@media screen and (max-width: 768px) {
+    .sp{
+        height: auto;
+    }
+    .lefts {
+       display: none;
+    }
+    .rights{
+        height: auto;
+        width: 100%;
+        overflow: auto;
+    }
+    .scroll-content{
+        height: auto;
+    }
+    .pg1,.pg2,.pg3{
+        height: auto;
+    }
+
+    .pg1 > h1,.pg2 >h1,.pg3 >h1{
+        font-size: 2em;
+        font-weight: 900;
+        
+    }
+    .pg1 > h4,.pg2 >h4,.pg3 >h4{
+        padding-block: 2rem;
+        text-align: center;
+    }
+    .pg1 > p,.pg2 >p,.pg3 >p{
+        padding-top: 1rem;
+        text-align: justify;
+    }
+}
