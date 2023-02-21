@@ -490,14 +490,14 @@ text-align: left;
     justify-content: space-between;
 
 }
-#team_head .right{
+#team_head .rightt{
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
 
 }
-#team_head .right #movle{
+#team_head .rightt #movle{
     position: relative;
     display: flex;
     height: 50px;
@@ -509,7 +509,7 @@ text-align: left;
     margin: 0 10px 0 20px;
 }
 
-#team_head .right #movle::after{
+#team_head .rightt #movle::after{
     height: 15px;
     width: 9px;
     content: "";
@@ -517,7 +517,7 @@ text-align: left;
     background-image: url(./images/arr.png);
     background-size: cover;
 }
-#team_head .right #movri{
+#team_head .rightt #movri{
     position: relative;
     display: flex;
     height: 50px;
@@ -529,7 +529,7 @@ text-align: left;
     margin: 0 10px 0 0;
 
 }
-#team_head .right #movri::after{
+#team_head .rightt #movri::after{
     height: 15px;
     width: 9px;
     content: "";

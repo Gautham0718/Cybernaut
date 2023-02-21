@@ -27,7 +27,7 @@ export default function Members(){
             <div className="container-fluid py-2" id="core_team">
                 <div id="team_head">
                     <div id="d1">Core Team<div><span></span></div></div>
-                    <div class="right">
+                    <div class="rightt">
                         <span id="movle"></span>  
                         <span id="movri"></span>
                     </div>
@@ -85,7 +85,7 @@ export default function Members(){
             </div>
             <div className="container-fluid py-2" id="off_team">
                 <div id="team_head">
-                    <div class="right">
+                    <div class="rightt">
                         <span id="movle"></span>  
                         <span id="movri"></span>
                     </div>

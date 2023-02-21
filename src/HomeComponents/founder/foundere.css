@@ -1,6 +1,6 @@
 .lll{
     float: left;
-    width: 35vw;
+    width: 35%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -22,7 +22,7 @@
 .rrr{
     /* position: relative; */
     float: left;
-    width: 65vw;
+    width: 65%;
     height: 100vh;
     display: flex;
     flex-direction: column;

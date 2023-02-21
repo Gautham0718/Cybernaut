@@ -12,14 +12,13 @@ export default function home() {
   return (
     <>
       <div className='home'>
-        {/* <Slide></Slide>
+        <Slide></Slide>
         <Scroll></Scroll>
-        <Cards></Cards> */}
+        <Cards></Cards>
         <Founder></Founder>
-        {/* <Club></Club> */}
+        <Club></Club>
         <Contact></Contact>
         <Forms></Forms>
-        {/* <Footer></Footer> */}
       </div>
     </>
   )

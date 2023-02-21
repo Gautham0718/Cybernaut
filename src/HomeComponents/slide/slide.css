@@ -1,5 +1,5 @@
 .left{
-    width: 50vw;
+    width: 50%;
     /* background-color: aqua; */
     height: 100vh;
     display: flex;
@@ -18,7 +18,7 @@
   background-color: #FAFAFA;
 }
 .right{
-    width: 50vw;
+    width: 50%;
     /* background-color: blueviolet; */
     height: 100vh;
     display: flex;

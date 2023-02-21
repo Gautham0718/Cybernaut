@@ -1,7 +1,7 @@
 .home{
     position: relative;
     height: auto;
-    width: 100vw;
+    width: 100%;
     overflow: hidden;
     background-color: #FAFAFA;
 }
