@@ -35,8 +35,8 @@ viewBox="0 0 24 24">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptas quidem, vero non odio vitae! Rerum quaerat sed  dignissimos.</p>
         <nav>
             <p>Home</p>
-            <p>About</p>
-            <p>Home</p>
+            <p>Services</p>
+            <p>About us</p>
             
         </nav>
     </footer>

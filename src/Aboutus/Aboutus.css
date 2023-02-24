@@ -594,3 +594,58 @@ text-align: left;
     background-size: cover;
     color: black;
 }
+@media screen and (max-width: 768px) {
+    #quotes{
+    text-align: justify;
+    }
+    #quotes >span{
+        display: block;
+        margin-inline: auto;
+        text-align: center;
+        padding-top: 1rem;
+    }
+    .logo-img{
+        margin-inline: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .ques{
+        text-align: center;
+    }
+    .res > span{
+        text-align: justify;
+       display: block;
+       margin-block: 2rem;
+    }
+  .nav-tab-thing{
+    display: flex;
+    justify-content: space-around;
+  }
+  #vision > div , #mission > div{
+    text-align: justify;
+    padding: 2rem;
+  }
+ #pg3q{
+    width: 80%;
+    margin-inline: auto!important;;
+ }
+#wrt{
+    padding-block:2rem;
+ 
+}
+#pg3cont > #wrt > span {
+    text-align: justify;
+}
+#d1{
+    text-align: left;
+}
+#d2{
+    padding-inline: 2rem;
+}
+.founder-parent > *{
+    all:unset;
+}
+ .dp{
+    margin:0;
+}
+}

@@ -19,11 +19,12 @@ const founders=[
 ]
 
     return(
-        <div className="container">
+  
+        <div className="container founder-parent">
             <div id="d1">The Founders <div><span></span></div></div>
             <div className='row'>
                 {founders.map( (i,index) => (
-                <div className=' col-9 col-lg-4 col-md-6 my-3 mx-auto' key={index}>
+                <div className='messing col-9 col-lg-4 col-md-6 my-3 mx-auto' key={index}>
                 <div className="dp"></div>
                     <div className="details">
                         <div className="name">
@@ -43,5 +44,6 @@ const founders=[
             </div>
 
         </div>
+
     )
 }

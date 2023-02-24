@@ -16,18 +16,25 @@ export default function Aboutus(){
                 </div>
                 <div className="cont">
                     <div className='row'>
-                        <div className="col-lg-4 col-sm-12">
+                        <div className="logo-img col-lg-4 col-sm-12">
                             <img src={logo} alt="Cybernaut logo"/>
                         </div>
                         <div className="col-lg-8 col-sm-12 wrt-cont"> 
                             <div className="ques py-3">So, why not provide that weapon to everyone?</div>
-                            <div className="res">This is the basic idea behind Cybernaut. <br/>
-                                Cybernaut is a registered startup company under MSME that has its vision of providing equal educational opportunities to everyone. <br/><br/>
-                                
-                                Knowledge is something that can be shared with someone, unlike money without any hesitation. Money is something fundamental for a living. Even though money is important, knowledge is the one that is the basic source for money. And so, education is very important.
-                                As an Ed-tech platform, we have our motto as 'Share your knowledge to expand others' knowledge.'<br/><br/>
+                            <div className="res"> 
+                            <span>
+                                 This is the basic idea behind Cybernaut. 
+                                Cybernaut is a registered startup company under MSME that has its vision of providing equal educational opportunities to everyone.
+                                </span>
+                                <span>
 
+                                Knowledge is something that can be shared with someone, unlike money without any hesitation. Money is something fundamental for a living. Even though money is important, knowledge is the one that is the basic source for money. And so, education is very important.
+                                As an Ed-tech platform, we have our motto as 'Share your knowledge to expand others' knowledge.'
+                                </span>
+                        <span>
                                 Cybernaut is a group of like-minded people who work towards the betterment of educational opportunities for everyone. In that manner, we conduct workshops and internships to impart knowledge to young minds.
+
+                        </span>
                                 </div>
                         </div>
                     </div>

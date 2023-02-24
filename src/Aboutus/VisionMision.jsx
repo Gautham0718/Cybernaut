@@ -34,7 +34,7 @@ export default function VisionMission(){
             </div>
             
             
-            <div className="vis fades">
+            <div className="vis fades ">
                 <h1>Vision</h1>
                 <div id="vmcont">
                 We aim to be the largest educational platform where the quality of education is improved so as to give a possibility of employment in the engineering sector. A fresher who joins is shaped in all domains be it technical, content writing, research, or designing. 
@@ -54,7 +54,7 @@ Along with these skills, you can build up your knowledge and experience too. We 
         </div>
     </div>
     <div className='d-sm-block d-lg-none'>
-        <ul className='nav nav-tabs'> 
+        <ul className='nav nav-tabs  nav-tab-thing'> 
             <li className='nav-item' role='presentation'>
                 <button className='nav-link' data-bs-toggle="tab" data-bs-target="#vision" type='button'>Vision</button>
             </li>
