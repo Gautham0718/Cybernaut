@@ -16,7 +16,7 @@ export default function home() {
         <Cards></Cards>
         <Founder></Founder> 
         <Club></Club>
-         <Contact></Contact>
+        <Contact></Contact>
         <Forms></Forms>
         <Footer/>
       </div>

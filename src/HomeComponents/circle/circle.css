@@ -1,5 +1,5 @@
 :root{
-  --circle-var:calc(27rem);
+  --circle-var:calc(25rem);
   --pic-var:calc(var(--circle-var)/2);
 }
 .circle-wrapper {

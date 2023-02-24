@@ -24,14 +24,19 @@
     float: left;
     width: 65%;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    /* flex-direction: column; */
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     padding-inline: 2rem;
+    padding-block: 5rem;
 }
 .rrr p{
     font-size: 100%;
+}
+
+.rrr h1{
+    text-align: left;
 }
 
 @media screen and (max-width: 768px) {
