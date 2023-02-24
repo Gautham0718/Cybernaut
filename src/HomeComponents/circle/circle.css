@@ -66,7 +66,7 @@
   }
   .tech-content{
     text-align: center;
-    outline: #CACACA solid .1rem;
+    outline: #CACACA solid .5rem;
     border: 3rem solid #CACACA;
     border-radius: 50%;
     aspect-ratio: 1/1;

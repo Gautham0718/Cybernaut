@@ -18,6 +18,7 @@
 .founder{
     height: 100vh;
     /* position: relative; */
+    margin-block: 2rem;
     
 }
 .rrr{
@@ -36,8 +37,13 @@
     font-size: 100%;
 }
 
-.rrr h1{
+.rrr h1:nth-child(1){
+    position: relative;
+    bottom:1%;
     text-align: left;
+}
+.rrr > p {
+    padding-block:5%;
 }
 .cp > h1{
     padding-inline:2rem;

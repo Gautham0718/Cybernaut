@@ -29,7 +29,7 @@ const Circle = (props) => {
     setText('FIGMA')
   }
   function figmap(){
-    setText1('Figma is a tool that can be used to design user interfaces for apps and also for web pages. It is a vector graphics tool and can easily be accessed via the web. Figma is an easy platform to design compared to others and can be used by a group to design.')
+    setText1('Figma is a tool that can be used to design user interfaces for apps and also for web pages. It is a vector graphics tool and can easily be accessed via the web.')
   }
 
   function fileh(){

@@ -7,7 +7,7 @@
     position: relative;
 }
 .sc-card{
-    width: 60vw;
+    width: min-content;
     position: sticky;
     z-index: 50;
     height: 100vh;
@@ -74,8 +74,8 @@
     z-index: 100;
     left: 0;
     width: auto;
-    height: 20%;
-    float: left;
+    
+    top:20vh;
     /* transform: translate(-80%,-110%); */
 }
 .r{
@@ -86,6 +86,15 @@
     /* right: 0%; */
     /* width: auto; */
     /* height: 100%; */
+}
+
+.img-for-club-left,.img-for-club-right{
+    width: 30vw;
+    aspect-ratio: 6/13;
+}
+.img-for-club-left{
+    position: absolute;
+    top:0;
 }
 
 @media screen and (max-width: 768px) {

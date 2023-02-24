@@ -4,6 +4,7 @@
   }
   .card-img{
     width: 90%;
+    aspect-ratio: 16/9;
     margin: auto ;
     margin-top: 20px;
     /* object-fit: cover; */

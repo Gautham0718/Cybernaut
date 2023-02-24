@@ -4,6 +4,7 @@ import VisionMission from './VisionMision';
 import Milestone from './Milestones';
 import Founders from './Founders';
 import Members from './Members';
+import Footer from '../HomeComponents/footer/footer'
 export default function Aboutus(){
 
 
@@ -66,7 +67,7 @@ Live classes and interaction during className support Smart Learning. Having qui
             <Milestone/>
             <Founders/>
             <Members/>
-
+            <Footer/>
         </div>
     )
 }

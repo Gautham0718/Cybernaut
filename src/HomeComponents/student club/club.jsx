@@ -6,12 +6,12 @@ export default function club() {
   return (
     <div className="scp">
       <div className="l">
-        <img src={l1} alt="" />
+        <img src={l1} alt="" className='img-for-club-left'/>
       </div>
       
         <div className="sc-card">
             <div className="hh">
-                <div className="ll">
+                <div className="ll ">
                   <img src={l3} alt="" />
                 </div>
                 <div className="rr">
@@ -33,8 +33,8 @@ export default function club() {
               <a href="http://">learn more</a>
             </div>
         </div>
-        <div className="r">
-        <img src={l2} alt="" />
+        <div className="r ">
+        <img src={l2} alt="" className='img-for-club-right'/>
       </div>
     </div>
   )
