@@ -8,7 +8,7 @@ export default function founder() {
   return (
     <div className="founder">
         <div className="lll">
-        <Carousel fade>
+        <Carousel fade style={{width:'100%', height:'100%'}}>
       <Carousel.Item>
         <img
           className="d-block w-100"

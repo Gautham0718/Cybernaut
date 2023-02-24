@@ -18,18 +18,19 @@
 .founder{
     height: 100vh;
     /* position: relative; */
+    
 }
 .rrr{
     /* position: relative; */
     float: left;
     width: 65%;
     height: 100vh;
-    display: grid;
+    /* display: grid; */
     /* flex-direction: column; */
-    align-items: center;
+    /* align-items: center; */
     /* justify-content: center; */
     padding-inline: 2rem;
-    padding-block: 5rem;
+    /* padding-block: 5rem; */
 }
 .rrr p{
     font-size: 100%;
@@ -38,7 +39,9 @@
 .rrr h1{
     text-align: left;
 }
-
+.cp > h1{
+    padding-inline:2rem;
+}
 @media screen and (max-width: 768px) {
     .founder{
         display: flex;

@@ -125,3 +125,9 @@
     background-repeat: no-repeat;
     background-position-x: center;
   }
+
+  @media screen and (min-width: 1520px) {
+    :root{
+      --circle-var:calc(35rem);
+    }
+  }
