@@ -6,8 +6,6 @@ import Founders from './Founders';
 import Members from './Members';
 import Footer from '../HomeComponents/footer/footer'
 export default function Aboutus(){
-
-
     return (
         <div>
             <div id="pg1">

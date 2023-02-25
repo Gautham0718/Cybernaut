@@ -22,3 +22,8 @@
     text-align: left;
     color: #A6A6A6;
     }
+@media screen and (max-width: 768px) {
+ #title{
+    margin-block-start: 3rem;
+ }   
+    }

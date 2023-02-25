@@ -595,6 +595,7 @@ text-align: left;
     color: black;
 }
 @media screen and (max-width: 768px) {
+
     #quotes{
     text-align: justify;
     }
@@ -642,10 +643,19 @@ text-align: left;
 #d2{
     padding-inline: 2rem;
 }
-.founder-parent > *{
-    all:unset;
+
+.founder-parent,.founder-parent > *{
+    all:unset!important;
+    margin: 0;
 }
  .dp{
     margin:0;
+    margin-inline: auto;
+    margin-top: 5rem;
 }
+.details >.name h1{
+    padding-block-end: 2rem;
+    text-align: center;
+}
+
 }

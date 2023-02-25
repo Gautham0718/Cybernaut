@@ -106,3 +106,12 @@ text-align: left;
     box-shadow: none;
     background: none;
 }
+
+@media screen and (max-width: 768px) {
+    .description{
+        margin-inline: auto;
+    }
+    .description > div{
+        text-align: justify;
+    }
+}
