@@ -28,6 +28,9 @@
       "react-app/jest"
     ]
   },
+  "homepage":"https://github.com/Gautham0718/cybernaut.github.io/main",
+  "predeploy" : "npm run build",
+  "deploy" : "gh-pages -d build",
   "browserslist": {
     "production": [
       ">0.2%",
