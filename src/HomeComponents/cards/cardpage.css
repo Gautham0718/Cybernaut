@@ -48,9 +48,9 @@
   text-align: center;
 }
 
-.card-img{
+/* .card-img{
   aspect-ratio: 3/4;
-}
+} */
 
 @media screen and (max-width: 768px) {
   .cards{
@@ -63,9 +63,9 @@
     width: 100%;
     aspect-ratio: unset;
   }
-  .card{
+  /* .card{
     padding-inline: 2rem;
-  }
+  } */
   .inverted{
     display: flex;
     flex-direction: column-reverse;

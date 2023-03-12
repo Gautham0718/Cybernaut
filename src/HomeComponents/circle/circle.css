@@ -1,5 +1,5 @@
 :root{
-  --circle-var:calc(25rem);
+  --circle-var:calc(30rem);
   --pic-var:calc(var(--circle-var)/2);
 }
 .circle-wrapper {
@@ -83,8 +83,8 @@
   #pp{
     width: 80%;
   }
-  .java{
-    background-image: url('../images/java.png');
+  .afterEffect{
+    background-image: url('../images/affterEffect.png');
     background-size: 1.5em;
     background-position-y: center;
     background-repeat: no-repeat;
@@ -97,29 +97,29 @@
     background-repeat: no-repeat;
     background-position-x: center;
   }
-  .sql{
-    background-image: url('../images/sql.png');
+  .aptitude{
+    background-image: url('../images/Aptitude.png');
     background-size: 2em;
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
   }
-  .cpp{
-    background-image: url('../images/c++.png');
+  .spokenEnglish{
+    background-image: url('../images/Spoken-english.png');
     background-size: 2em;
     background-position-y: center;
     background-repeat: no-repeat;
     background-position-x: center;
   }
-  .file{
-    background-image: url('../images/file.png');
+  .premiere{
+    background-image: url('../images/premier.png');
     background-size: 1.5em;
     background-position-y: center;
     background-repeat: no-repeat;
     background-position-x: center;
   }
-  .python{
-    background-image: url('../images/python.png');
+  .communication{
+    background-image: url('../images/communication.png');
     background-size: 2em;
     background-position-y: center;
     background-repeat: no-repeat;

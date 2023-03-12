@@ -1,6 +1,17 @@
 export default{
-    tech_pack:require('./assets/prog_1.png'),
-    non_tech_pack:require('./assets/Communication.png'),
-    Junior_pack:require('./assets/MS_Office.png'),
-    Design_pack:require('./assets/Figma.png')
+    cpp:require('./assets/c++.png'),
+    java:require('./assets/java.png'),
+    python:require('./assets/python.png'),
+    mysql:require('./assets/mysql.png'),
+    web:require('./assets/web.png'),
+    app:require('./assets/app.png'),
+    contentWriting:require('./assets/contentwriting.png'),
+    spokenEnglish:require('./assets/spokenenglish.png'),
+    msoffice:require('./assets/MS_Office.png'),
+    paint:require('./assets/paint.png'),
+    communication:require('./assets/Communication.png'),
+    html:require('./assets/html.png'),
+    figma:require('./assets/Figma.png'),
+    adobePremiere:require('./assets/adobepp.png'),
+    adobeAfter:require('./assets/adobeae.png'),
 }

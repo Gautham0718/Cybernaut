@@ -1,7 +1,10 @@
 import React from 'react'
 import founders from '../images/Rectangle 40.png'
 import './foundere.css'
-import rect from '../images/Rectangle 40.png'
+// import rect from '../images/Rectangle 40.png'
+import jeyasurya from '../images/Jeyasurya.png'
+import manish from '../images/manish.png'
+import keerthana from '../images/keerthana.png'
 import Carousel from 'react-bootstrap/Carousel';
 
 export default function founder() {
@@ -12,37 +15,37 @@ export default function founder() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={rect}
+          src={jeyasurya}
           alt="First slide"
         />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <Carousel.Caption style={{marginBottom:'-2em'}}>
+          <h3>G.Jeyasurya</h3>
+          <p>Chief Executive Officer</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={rect}
+          src={manish}
           alt="Second slide"
         />
 
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <Carousel.Caption style={{marginBottom:'-2em',color:'black'}}>
+          <h3>B.Manish</h3>
+          <p>President</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={rect}
+          src={keerthana}
           alt="Third slide"
         />
 
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
+        <Carousel.Caption style={{marginBottom:'-2em'}}>
+          <h3>G.Keerthana</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Vice-President
           </p>
         </Carousel.Caption>
       </Carousel.Item>

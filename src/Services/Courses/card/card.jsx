@@ -3,7 +3,8 @@ import c_img from './card_pics'
 import { Link } from 'react-router-dom';
 export default function Card(props){
     var {id,name,price}=props;
-    var k='Design_pack'
+    var k=id;
+    console.log(k)
     return(
         
         <div className="col-lg-4 col-sm-6">

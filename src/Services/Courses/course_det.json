@@ -18,6 +18,14 @@
             "id":"mysql",
             "name":"MySQL",
             "price":"799"
+           },{
+            "id":"web",
+            "name":"Web Development",
+            "price":"799"
+           },{
+            "id":"app",
+            "name":"App Development",
+            "price":"799"
            }
         ]
     },
@@ -32,6 +40,10 @@
             "id":"contentWriting",
             "name":"Content Writing",
             "price":"799"
+           },{
+            "id":"spokenEnglish",
+            "name":"Spoken and Writen English",
+            "price":"799"
            }
         ]
     },
@@ -39,12 +51,16 @@
         "head":"Junior Enlightment",
         "courses":[
            {
-            "id":"basicAptitude",
-            "name":"Basic Aptitude",
+            "id":"msoffice",
+            "name":"MS Office",
             "price":"799"
            },{
-            "id":"spokenEnglish",
-            "name":"Spoken English",
+            "id":"paint",
+            "name":"Paint 3D",
+            "price":"799"
+           },{
+            "id":"html",
+            "name":"HTML",
             "price":"799"
            }
         ]

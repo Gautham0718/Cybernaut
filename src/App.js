@@ -10,7 +10,8 @@ import Cartpage from './cartpage/cartpage';
 import Cartpage1 from './cartpage/Cartpage1';
 function App() {
   return (
-    <div className="App">
+    // <div className="App">
+        <>
         <Scroll/>
         <Header/>
       <Routes>
@@ -20,7 +21,8 @@ function App() {
         <Route path='/Services/:id' element={<Content/>}/>
         <Route path='/cart' element={<Cartpage1/>}/>
       </Routes>
-    </div>
+        </>
+    // </div>
   );
 }
 

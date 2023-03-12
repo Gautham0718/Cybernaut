@@ -1,14 +1,14 @@
 export default{
-    cpp: require('./img/c++.png'),
-    java: require('./img/c++.png'),
-    python: require('./img/c++.png'),
-    mysql: require('./img/c++.png'),
-    communication: require('./img/c++.png'),
-    contentWriting: require('./img/c++.png'),
-    basicAptitude: require('./img/c++.png'),
-    spokenEnglish: require('./img/c++.png'),
-    figma: require('./img/c++.png'),
-    adobePremiere: require('./img/c++.png'),
-    adobeAfter: require('./img/c++.png')
+    cpp: require('./img/c++C.png'),
+    java: require('./img/javaC.png'),
+    python: require('./img/pythonC.png'),
+    mysql: require('./img/mysqlC.png'),
+    communication: require('./img/communicationC.png'),
+    contentWriting: require('./img/contentwritingC.png'),
+    basicAptitude: require('./img/basicaptitudeC.png'),
+    spokenEnglish: require('./img/spokenenglishC.png'),
+    figma: require('./img/figmaC.png'),
+    adobePremiere: require('./img/adobeppC.png'),
+    adobeAfter: require('./img/adobeaeC.png')
 }
 // export default img;

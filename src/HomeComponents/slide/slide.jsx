@@ -1,6 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import Circle from '../circle/circle';
+import Circle2 from '../circle2/circle2';
 import './slide.css'
 export default function slide() {
   return (
@@ -8,7 +9,7 @@ export default function slide() {
         <Carousel>
         <Carousel.Item className='slider'>
           <div className="left circle-ccxx">
-              <Circle></Circle>
+              <Circle2></Circle2>
           </div>
 
           <div className="right content-parent">

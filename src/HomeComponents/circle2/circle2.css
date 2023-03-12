@@ -1,0 +1,133 @@
+:root{
+    --circle-var:calc(25.5rem);
+    --pic-var:calc(var(--circle-var)/2);
+  }
+  .circle-wrapper {
+      aspect-ratio: 1/1;
+      width: calc(var(--circle-var) + 2rem);
+      border-radius:50%;
+      /* left: 15%; */
+      border: 1px solid #CACACA;
+      position:relative;
+      -moz-border-radius:50%;
+      -webkit-border-radius:50%;
+      background:#F5F5F5;
+      /* transform: translate(15%,20%); */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* margin:100px; */
+    }
+    
+    .circle {
+      cursor: pointer;
+      display:block;
+      position:absolute;
+      width: 50px;
+      height: 50px;
+      -moz-border-radius:50%;
+      -webkit-border-radius:50%;
+      background-color: #F5F5F5;
+      border:1px solid #CACACA;
+      border-radius:50%;
+      text-align:center;
+    }
+    
+    .deg-0 {
+      transform:translate(var(--pic-var))
+    }
+    
+    .deg-45 {
+      transform:rotate(30deg) translate(var(--pic-var)) rotate(-30deg);
+    }
+    
+    .deg-90 {
+      transform:rotate(91deg) translate(var(--pic-var)) rotate(-91deg);
+    }
+    
+    .deg-135 {
+      transform:rotate(150deg) translate(var(--pic-var)) rotate(-150deg);
+    }
+    
+    .deg-180 {
+      transform:rotate(181deg) translate(var(--pic-var)) rotate(-181deg);
+    }
+    
+    .deg-225 {
+      transform:rotate(210deg) translate(var(--pic-var)) rotate(-210deg);
+    }
+    
+    .deg-270 {
+      transform:rotate(271deg) translate(var(--pic-var)) rotate(-271deg);
+    }
+    
+    .deg-315 {
+      transform:rotate(330deg) translate(var(--pic-var)) rotate(-330deg);
+    }
+    .tech-content{
+      text-align: center;
+      outline: #CACACA solid .1rem;
+      border: 3rem solid #CACACA;
+      border-radius: 50%;
+      aspect-ratio: 1/1;
+      width: var(--circle-var);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      /* background-color: white; */
+    }
+    .tech-content h1{
+      margin-top: 20px;
+    }
+    #pp{
+      width: 80%;
+    }
+    .java{
+      background-image: url('../images/java.png');
+      background-size: 1.5em;
+      background-position-y: center;
+      background-repeat: no-repeat;
+      background-position-x: center;
+    }
+    .appDev{
+      background-image: url('../images/AppDev.png');
+      background-size: 1.2em;
+      background-position-y: center;
+      background-repeat: no-repeat;
+      background-position-x: center;
+    }
+    .sql{
+      background-image: url('../images/sql.png');
+      background-size: 2em;
+      background-repeat: no-repeat;
+      background-position-x: center;
+      background-position-y: center;
+    }
+    .cpp{
+      background-image: url('../images/c++.png');
+      background-size: 2em;
+      background-position-y: center;
+      background-repeat: no-repeat;
+      background-position-x: center;
+    }
+    .file{
+      background-image: url('../images/file.png');
+      background-size: 1.5em;
+      background-position-y: center;
+      background-repeat: no-repeat;
+      background-position-x: center;
+    }
+    .python{
+      background-image: url('../images/python.png');
+      background-size: 2em;
+      background-position-y: center;
+      background-repeat: no-repeat;
+      background-position-x: center;
+    }
+  
+    @media screen and (min-width: 1520px) {
+      :root{
+        --circle-var:calc(35rem);
+      }
+    }

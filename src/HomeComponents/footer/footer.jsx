@@ -1,4 +1,5 @@
 import './footer.css'
+import { Link } from 'react-router-dom';
  export default function Footer() {
   return (
     <footer>
@@ -34,9 +35,9 @@ viewBox="0 0 24 24">
         </div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptas quidem, vero non odio vitae! Rerum quaerat sed  dignissimos.</p>
         <nav>
-            <p>Home</p>
-            <p>Services</p>
-            <p>About us</p>
+            <Link to={"/"} className="linkss"><span class="z-10">Home</span></Link>
+            <Link to="/Services" className="linkss">Service</Link>
+            <Link to="/Aboutus" className="linkss">About Us</Link>
             
         </nav>
     </footer>
